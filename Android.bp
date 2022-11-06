@@ -140,6 +140,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "audiosphere",
+	owner: "xiaomi",
+	jars: ["proprietary/system/framework/audiosphere.jar"],
+}
+
+dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar"],
