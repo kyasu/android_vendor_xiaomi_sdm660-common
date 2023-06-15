@@ -670,6 +670,7 @@ PRODUCT_PACKAGES += \
     IWlanService \
     PowerOffAlarm \
     QtiTelephonyService \
+    SoterService \
     TimeService \
     audiosphere \
     chargeonlymode \

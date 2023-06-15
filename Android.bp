@@ -431,3 +431,13 @@ cc_prebuilt_binary {
 	prefer: true,
 }
 
+android_app_import {
+	name: "SoterService",
+	owner: "xiaomi",
+	apk: "proprietary/app/SoterService/SoterService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
