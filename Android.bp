@@ -938,10 +938,18 @@ cc_prebuilt_binary {
 android_app_import {
 	name: "SoterService",
 	owner: "xiaomi",
-	apk: "proprietary/app/SoterService/SoterService.apk",
+	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
+	soc_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.soter-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
+	system_ext_specific: true,
 }
 
