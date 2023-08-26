@@ -893,17 +893,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
-	name: "chargeonlymode",
-	owner: "xiaomi",
-	srcs: ["proprietary/bin/chargeonlymode"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-}
-
 android_app_import {
 	name: "SoterService",
 	owner: "xiaomi",

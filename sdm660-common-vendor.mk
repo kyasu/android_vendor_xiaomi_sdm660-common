@@ -910,7 +910,6 @@ PRODUCT_PACKAGES += \
     uceShimService \
     tcmclient \
     audiosphere \
-    chargeonlymode \
     com.qti.dpmframework \
     com.qualcomm.qti.imscmservice-V2.0-java \
     com.qualcomm.qti.imscmservice-V2.1-java \
