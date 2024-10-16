@@ -3999,7 +3999,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libwvhidl.so"],
-			shared_libs: ["android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hidl.memory@1.0", "libbase", "libhidlbase", "libhidlmemory", "libhidltransport", "libhwbinder", "liblog", "libprotobuf-cpp-lite", "libutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcrypto_shim", "android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hidl.memory@1.0", "libbase", "libhidlbase", "libhidlmemory", "libhidltransport", "libhwbinder", "liblog", "libprotobuf-cpp-lite", "libutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
