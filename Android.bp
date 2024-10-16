@@ -4,6 +4,12 @@
 
 soong_namespace {
 	imports: [
+                "device/xiaomi/sdm660-common",
+                "hardware/qcom-caf/msm8998",
+                "hardware/qcom-caf/wlan",
+                "hardware/xiaomi",
+                "vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um",
+                "vendor/qcom/opensource/dataservices",
 	],
 }
 
@@ -176,7 +182,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@3.0-service",
+	name: "vendor.qti.gnss@3.0-service.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml",
 	filename_from_src: true,
