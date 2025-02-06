@@ -181,28 +181,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     sound_trigger.primary.sdm660 \
-    libI420colorconvert \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxDsdDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
     libOmxVideoDSMode \
-    libOmxWmaDec \
     libadm \
     libadpcmdec \
     libadsp_hvx_callback_skel \
     libadsp_hvx_stub \
-    libdsd2pcm \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
-    libmm-color-convertor \
     libmmosal_proprietary \
     libsmwrapper \
     libvqzip \
