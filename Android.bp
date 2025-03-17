@@ -1744,8 +1744,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libdrmutils_vendor",
-    stem: "libdrmutils",
+    name: "libdrmutils",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3305,6 +3304,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdrm",
+                "libdrmutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -3317,6 +3317,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdrm",
+                "libdrmutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -3346,6 +3347,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libbinder",
                 "libutils",
+                "libsdmutils",
                 "libtinyxml2_1",
                 "libc++",
                 "libc",
@@ -3362,6 +3364,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libbinder",
                 "libutils",
+                "libsdmutils",
                 "libtinyxml2_1",
                 "libc++",
                 "libc",
@@ -3389,6 +3392,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdiag",
+                "libsdmutils",
                 "libbinder",
                 "libc++",
                 "libc",
@@ -3402,6 +3406,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libdiag",
+                "libsdmutils",
                 "libbinder",
                 "libc++",
                 "libc",
@@ -3428,6 +3433,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libsdmextension.so",
             ],
             shared_libs: [
+                "libsdmutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -3439,6 +3445,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libsdmextension.so",
             ],
             shared_libs: [
+                "libsdmutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -3453,8 +3460,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsdmutils_vendor",
-    stem: "libsdmutils",
+    name: "libsdmutils",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -7073,6 +7079,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libsdm-disp-vndapis.so",
             ],
             shared_libs: [
+                "libsdmutils",
                 "libqservice",
                 "libbinder",
                 "libcutils",

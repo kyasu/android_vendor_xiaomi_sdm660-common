@@ -129,7 +129,7 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libdiag \
-    libdrmutils_vendor \
+    libdrmutils \
     libdsutils \
     libfastcvadsp_stub \
     libfastcvopt \
@@ -169,7 +169,7 @@ PRODUCT_PACKAGES += \
     libsdm-color \
     libsdm-diag \
     libsdmextension \
-    libsdmutils_vendor \
+    libsdmutils \
     libsdsprpc \
     libsysmon_cdsp_skel \
     libthermalclient \
