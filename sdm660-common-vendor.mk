@@ -193,7 +193,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
-    sound_trigger.primary.sdm660 \
     libOmxVideoDSMode \
     libadm \
     libadpcmdec \
